@@ -85,6 +85,7 @@ body{
 
    article{
     background-color: #794722; color:white;
+    /*Im using the display:grid, justify-content as well as grid-template-columm methods to position my images within the article. Source: https://www.w3schools.com/css/css_grid_container.asp */
     display:grid;
     justify-content:space-evenly;
     align-content: start;
@@ -103,10 +104,24 @@ body{
     font-style: normal;
     font-size: large;
     text-align: left;
+    margin:10px;
     line-height: 50px;
     height:720px; width: 50%;
     position: relative;
     top:20px; left:25%;
+   }
+   .article3{
+    background-color: #794722; color:white;
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-align: left;
+    margin:20px;
+    line-height: 50px;
+    height:500px; width: 90%;
+    position: relative;
+    top:20px; 
    }
    #articleheader{
     color:White;
@@ -114,7 +129,7 @@ body{
     font-family: "Charm", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size:larger;
+    font-size:x-large;
     
    }
 
